@@ -45,12 +45,56 @@
       <button 
         class="header-burger-button"
         type="button" 
+        title="Open menu"
       >
+        <span class="visually-hidden">Open menu</span> <!--для скринридеров-->
         <span class="header-burger-button-line"></span>
         <span class="header-burger-button-line"></span>
         <span class="header-burger-button-line"></span>
       </button>
     </div>
   </header>
+  <main class="content">
+    <!--В проекте всегда должет быть один h1 -->
+    <h1 class="visually-hidden">Kropp Fitness Club</h1>
+    <!--Найти видео как сделать слайдер с помощью js-->
+    <section class="banner">
+      <!--Внутрь каждого section нужно добавлять h2, о том какой контент содержит заколовок-->
+      <h2 class="visually-hidden">Upcoming events</h2>
+      <section class="banner-body">
+        <div class="banner-info">
+          New event <br/>
+          coming up / <time datetime="06-07">june 7</time>&nbsp;-&nbsp;<time datetime="06-13">13</time>
+        </div>
+        <h3 class="banner-title">Crossfit</h3>
+        <section class="banner-pagination">
+          <ul class="banner-pagination-list">
+            <li class="banner-pagination-item">
+              <button
+                class="bunner-pagination-button is-current"
+                type="button"
+              >
+              </button>
+            </li>
+            <li class="banner-pagination-item">
+              <button
+                class="bunner-pagination-button"
+                type="button"
+              >
+              </button>
+            </li>
+            <li class="banner-pagination-item">
+              <button
+                class="bunner-pagination-button"
+                type="button"
+              >
+              </button>
+            </li>
+          </ul>
+        </section>
+      </section>
+
+    </section>
+  </main>
 </body>
 </html>
